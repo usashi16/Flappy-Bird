@@ -101,9 +101,7 @@ let config = {
         bird.body.velocity.x = 0;
       }
 
-      if (cursors.space.isDown && !isGameStarted) {
-        isGameStarted = true;
-      }
+ 
 
       if (!isGameStarted) {
         bird.setVelocityY(-160);
