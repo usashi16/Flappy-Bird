@@ -16,7 +16,7 @@ let config = {
     },
   };
   
-  let game = new Phaser.Game(config);
+   let game = new Phaser.Game({ ...config, parent: 'gameArea' });
   
   function preload() {
     this.load.image("background", "assets/background.png");
