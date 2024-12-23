@@ -19,10 +19,10 @@ let config = {
   let game = new Phaser.Game(config);
   
   function preload() {
-    this.load.image("background", "assets/background.png");
-    this.load.image("road", "assets/road.png");
-    this.load.image("column", "assets/column.png");
-    this.load.spritesheet("bird", "assets/bird.png", {
+    this.load.image("background", "background.png");
+    this.load.image("road", "road.png");
+    this.load.image("column", "column.png");
+    this.load.spritesheet("bird", "bird.png", {
       frameWidth: 64,
       frameHeight: 96,
     });
